@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NetclanExplore" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primary</item>
+        <item name="background">@color/white</item>
+        <item name="menu">@menu/appbarmenu</item>
+    </style>
+
+    <style name="Theme.NetclanExplore" parent="Base.Theme.NetclanExplore" />
+    <style name="fontSize">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+
+
+    </style>
+</resources>
